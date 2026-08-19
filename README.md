@@ -43,7 +43,7 @@ Docker Compose bundles FFmpeg, Node, and Python together.
 
 1. Navigate to the root directory:
    ```bash
-   cd /home/smitsolanki/Desktop/POCs/Audio
+   cd transcriber-studio
    ```
 2. Build and launch the containers:
    ```bash
@@ -61,7 +61,7 @@ Docker Compose bundles FFmpeg, Node, and Python together.
 
 1. Navigate to backend:
    ```bash
-   cd /home/smitsolanki/Desktop/POCs/Audio/backend
+   cd backend
    ```
 2. Create and activate a python virtual environment:
    ```bash
@@ -81,7 +81,7 @@ Docker Compose bundles FFmpeg, Node, and Python together.
 
 1. Open a new terminal and navigate to frontend:
    ```bash
-   cd /home/smitsolanki/Desktop/POCs/Audio/frontend
+   cd frontend
    ```
 2. Install npm dependencies:
    ```bash
@@ -99,7 +99,7 @@ Docker Compose bundles FFmpeg, Node, and Python together.
 
 1. Navigate to [http://localhost:3000](http://localhost:3000).
 2. Click the drag-and-drop region or browse files.
-3. Select the file: `/home/smitsolanki/Downloads/Standard recording 6.mp3`
+3. Select your target audio file (e.g. `Standard recording 6.mp3` from your local machine).
 4. Expand **Audio Enhancement & Model Settings**:
    - Check **Normalize Volume**, **Noise Reduction**, and **Speech Boost**.
    - Set **Enhancement Strength** to *Strong* or *Aggressive* (since the speakers are quiet).
